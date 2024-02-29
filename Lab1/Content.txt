@@ -1,0 +1,43 @@
+Programowanie dla WWWW
+
+I just had to take the hypertext idea and connect it to the TCP and DNS ideas and — ta-da!— the World Wide Web.
+
+
+Historia WWWW
+
+Wynalazcą World Wide Web (WWW) jest Tim Berners-Lee, brytyjski naukowiec, który opracował koncepcję WWW w 1989
+    roku podczas pracy w CERN. Pierwsza strona internetowa, dostępna obecnie pod adresem: info.cern.ch,
+    była poświęcona projektowi World Wide Web i była hostowana na komputerze NeXT Cube. 30 kwietnia 1993 roku CERN
+    udostępnił oprogramowanie World Wide Web w domenie publicznej, co spowodowało dynamiczny rozwój sieci.
+
+https://upload.wikimedia.org/wikipedia/commons/d/d1/First_Web_Server.jpg
+
+Pierwsze strony internetowe (Web 1.0) miały charakter statyczny i były pozbawione interaktywności,
+    błyskotliwej grafiki i klipów wideo. Internet w zarodku to szereg prostych stron tekstowych.
+    Brian Merchant* przyrównał eksplorację pierwszych stron internetowych do oglądania klasycznego
+    czarno-białego filmu niemego.
+
+
+HTML - Język opisu stron
+
+
+Podwaliną dla oficjalnych specyfikacji języka HTML była lista znaczników (HTML Tags), zamieszczona w Internecie przez
+T. Berner-Lee w 1991 roku. Wykaz ten zawierał kilkanaście znaczników oraz ich atrybuty. Zawierał także opis konstrukcji
+znaczników, sposobu ich użycia oraz zastosowania [Berner-Lee 1991]. 
+
+
+Tim Berner-Lee zademonstrował prosty, ale atrakcyjny
+sposób publikowania tekstu, samodzielnie opracował oprogramowanie, a także własny (relatywnie prosty) protokół HTTP (HyperText Transfer Protocol) obsługujący łącza hipertekstowe. Format tekstu dla HTTP został nazwany HTML (HyperText Markup Language). Hipertekstowa implementacja T. Berner-Lee została zademonstrowana na stacji roboczej NeXT, która zapewniała wiele narzędzi potrzebnych do opracowania prototypu [Raggett i in. 1998].
+
+
+Język HTML zaproponowany przez T. Berner-Lee był oparty na SGML (Standard Generalized Markup Language), tj. uzgodnionej na arenie międzynarodowej metodzie oznaczania tekstu w jednostkach strukturalnych, takich jak akapity, nagłówki, elementy listy itd. Jednak SGML nie obejmował linków hipertekstowych: pomysł użycia elementu kotwicy z atrybutem HREF należał do T. Berner-Lee, podobnie jak znany obecnie format „www.nazwa.nazwa” do adresowania komputerów w Internecie.
+
+
+Przeglądarki WWW
+
+Pierwsza przeglądarka internetowa o nazwie WorldWideWeb została utworzona w 1990 roku. Jej twórcą był Tim Berners-Lee. Została ona napisana w Objective-C przy użyciu Interface Builder na komputerze NeXT. Po pewnym czasie nazwę zmieniono na Nexus, aby odróżnić program od World Wide Web, czyli abstrakcyjnej przestrzeni informacyjnej. W 2019 roku z okazji trzydziestej rocznicy zainicjowania World Wide Web grupa programistów z CERN odtworzyła oryginalny interfejs przeglądarki… WorldWideWeb
+
+1   Chrome  62.78%	
+2   Safari  19.3%
+3   Firefox 4.2%
+4   Edge    4.05%
