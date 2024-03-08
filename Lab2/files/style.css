@@ -1,0 +1,40 @@
+div {
+    background-color: rgb(209, 227, 117);
+}
+
+#container {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: rgb(182, 98, 92);
+}
+
+nav {
+    background-color: #eb3838;
+    width: 20%;
+    float: left;
+}
+
+article {
+    background-color: #349653;
+    width: 80%;
+    float: left;
+}
+
+footer {
+    clear: left;
+}
+
+/* kropka to odnośnik do klasy hash to odnośnik do id*/
+.white_text {
+    color: rgb(255, 255, 255);
+}
+
+.rotated {
+    width: 100px;
+    background-color: blue;
+    margin: auto;
+    transform: rotate(45deg);
+    opacity: 0.5;
+}
