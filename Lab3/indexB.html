@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create two equal columns that floats next to each other */
+        .grid-container-main {
+            display: grid;
+            grid-template-columns: 250px auto;
+        }
+
+        .column {
+            padding: 10px;
+        }
+
+        .grid-header {
+            display: grid;
+            background-color: pink;
+            grid-template-columns: 60px 60px auto;
+        }
+
+        .item1 {
+            margin-left: 10px;
+        }
+
+        .item2 {
+            margin-left: 10px;
+        }
+
+        .item3 {
+            margin-left: auto;
+            margin-right: 10px;
+        }
+
+
+        /* Clear floats after the columns */
+        .footer {
+            clear: both;
+            padding: 0px 10px;
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Two Equal Columns</h2>
+    <div class="grid-header">
+        <h3 class="item1">Home</h3>
+        <h3 class="item2">Info</h3>
+        <h3 class="item3">Profile</h3>
+    </div>
+    <div class="grid-container-main">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+            <p>Some text..</p>
+        </div>
+        <div class="column" style="background-color:#bbb;">
+            <h2>Column 2</h2>
+            <p>Some text..</p>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>Footer</h3>
+    </div>
+</body>
+
+</html>

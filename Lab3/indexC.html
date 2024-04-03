@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            column-gap: 25px;
+            row-gap: 8px;
+            padding: 10px;
+        }
+
+        .logobox {
+            grid-column: 2;
+            grid-row-start: 2;
+            grid-row-end: 7;
+        }
+
+        .friendsbox {
+            grid-column: 3;
+            grid-row-start: 2;
+            grid-row-end: 10;
+        }
+
+        .interestslabel {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-column: 1;
+        }
+
+        .interestsbox {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            height: 128px;
+        }
+
+        .savebutton {
+            margin-top: 16px;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="grid-container">
+        <label for="fname">Imię</label>
+        <label for="logo">Logo</label>
+        <label for="friends">Znajomi</label>
+
+        <input type="text" id="fname" name="fname">
+        <input class="logobox" type="text" id="logo" name="logo">
+        <input class="friendsbox" type="text" id="friends" name="friends">
+
+        <label for="lname">Nazwisko</label>
+        <input type="text" id="lname" name="lname">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label class="interestslabel" for="interests">Zainteresowania</label>
+        <input class="interestsbox" type="text" id="interests" name="interests">
+
+        <input class="savebutton" type="button" value="Zapisz!">
+
+
+
+    </form>
+</body>
+
+</html>
