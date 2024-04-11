@@ -4,3 +4,7 @@
     height: 100px;
     margin: 5px;
 }
+
+.karta.selected {
+    background-color: yellow;
+}
