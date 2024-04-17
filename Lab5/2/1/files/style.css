@@ -1,0 +1,66 @@
+/* http://github.com/enure/Hide-All-Except-One */
+h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+#tabs {
+    padding-left: 0;
+    margin: 1em 0 .5em .5em;
+}
+
+/*inline sprawia ze element nie bedzie trakotwany jak osobne pudelko na tej zasadzie dlala span*/
+/*block sprawia ze element bedzaie trakotwany jak osobne pudelko*/
+#tabs li {
+    display: block;
+    float: left;
+    margin-right: 1.5em;
+    padding: .1em .4em;
+}
+
+/*selektor :before oznacza pseudostyl
+wskazuj�cy na miejsce przed zawartoscia danego elementu*/
+#tabs li a:before {
+    content: "* ";
+}
+
+#tabs li a {
+    color: #777;
+}
+
+#tabs li a.active,
+a:hover {
+    color: #000000;
+    /*background-color: aqua;*/
+    outline: none;
+}
+
+#boxes {
+    margin: .2em 0 2em 0;
+    border: 1px solid #ccc;
+    width: 400px;
+}
+
+#boxes div {
+    background-color: #F7F7F7;
+    padding: 1em;
+    color: #444;
+    font-family: georgia, serif;
+}
+
+#boxes ol,
+#boxes ul {
+    margin-left: 2em;
+}
+
+/*usuniecie podkreslenia i koloru z linkow*/
+a,
+a:link,
+a:visited {
+    color: #111;
+    text-decoration: none;
+}
