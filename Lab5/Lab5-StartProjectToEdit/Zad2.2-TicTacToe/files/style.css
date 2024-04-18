@@ -1,10 +1,10 @@
-#game_map{
+#game_map {
     border: 1px solid #000;
     clear: both;
     float: left;
 }
 
-#game_map .cell{
+#game_map .cell {
     cursor: pointer;
     float: left;
     border: 1px solid #000;
@@ -14,14 +14,21 @@
     font-size: 30px;
     text-align: center;
 }
-.clear{
+
+.clear {
     clear: both;
     line-height: 0px;
 }
 
-#game_map .player1_cell{
+#game_map .player1_cell {
     color: #cc0000;
 }
-#game_map .player2_cell{
+
+#game_map .player2_cell {
     color: #0000cc;
+}
+
+
+#game_map .marked {
+    background-color: rgb(216, 216, 216);
 }
