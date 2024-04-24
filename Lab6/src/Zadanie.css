@@ -1,0 +1,14 @@
+.task {
+    background-color: rgb(66, 194, 219);
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+}
+
+.task.done {
+    background-color: rgb(104, 95, 204);
+}
+
+.task.priority {
+    background-color: rgb(135, 227, 246);
+}
