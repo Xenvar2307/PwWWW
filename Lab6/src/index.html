@@ -18,7 +18,7 @@
     <input type="button" name="Pobierz" id="przycisk" value="Pobierz" />
 
     <hr>
-
+    <div>Please, initialize/load database before ading tasks</div>
     Database Id <input id="databaseId" type="text" />
     <input type="button" id="initBtn" value="Load/Init" onClick="initTodoList()" />
 
@@ -26,6 +26,15 @@
 
         New Task <input id="taskName" type="text" />
         <input type="button" name="taskName" id="taskNameBtn" value="Add" onClick="addTask()" />
+
+    <h1>Active Tasks</h1>
+    <div>//double click active task to prioritize/deprioritize that task</div>
+    <div id="To Do">
+    </div>
+    <hr>
+    <h1>Tasks Done</h1>
+    <div id="Did Do">
+    </div>
 
 
 
